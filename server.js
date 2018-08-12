@@ -84,5 +84,3 @@ app.use('/api', router);
 
 
 app.listen(port);
-console.log('Magic happens on port ' + port);
-var question1 = new Question(1,'333','33');
