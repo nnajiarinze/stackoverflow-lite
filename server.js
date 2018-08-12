@@ -82,5 +82,5 @@ router.get('/questions/',function(req, res){
 // all of our routes will be prefixed with /api
 app.use('/api', router);
 
-
+var questionGilbert = new Question(1,'question here','categoerea');
 app.listen(port);
